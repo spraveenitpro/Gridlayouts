@@ -1,0 +1,50 @@
+.container {
+
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.row {
+
+	clear: both;
+}
+
+
+.column-fourth,
+.column-half,
+.column-three-fourth {
+
+margin-right: 20px;
+float: left;
+
+}
+
+
+.column-fourth:last-child , .column-half:last-child, .column-three-fourth:last-child{
+
+	margin-right: 0;
+	 
+
+}
+
+.column-fourth {
+
+	width: 235px;
+	
+
+
+}
+
+
+.column-half {
+ 
+	width: 490px;
+
+}
+
+.column-three-fourth {
+	
+	width: 745px;
+	 
+
+}
